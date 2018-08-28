@@ -5,7 +5,6 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
-		'plugin:react/recommended',
 		'plugin:import/errors',
 		'plugin:import/warnings',
 		'plugin:jest/recommended',
@@ -14,12 +13,10 @@ module.exports = {
 	parserOptions: {
 		ecmaFeatures: {
 			experimentalObjectRestSpread: true,
-			jsx: true,
 		},
 		sourceType: 'module',
 	},
 	plugins: [
-		'react',
 		'import',
 		'jest',
 	],
@@ -36,7 +33,6 @@ module.exports = {
 			'error',
 			'single',
 		],
-		'react/prop-types': [0],
 		'semi': [
 			'error',
 			'never',
