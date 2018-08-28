@@ -1,15 +1,24 @@
 {
   "name": "eslint-config-chronograph",
   "version": "1.0.0",
-  "description": "",
+  "description": "Base shared eslint configuration for Chronograph.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Chronograph",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chronograph-pe/chronograph.git"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0"
+  }
 }
