@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-chronograph",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Base shared eslint configuration for Chronograph.",
   "main": "index.js",
   "keywords": [
@@ -14,15 +14,15 @@
   },
   "license": "ISC",
   "peerDependencies": {
-    "babel-eslint": "^8.2.5",
-    "eslint": "^5.0.1",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jest": "^21.17.0"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.4.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.22.0"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1"
   }
 }
