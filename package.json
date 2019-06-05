@@ -1,6 +1,6 @@
 {
   "name": "@chronograph-pe/eslint-config-chronograph",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Base shared eslint configuration for Chronograph.",
   "main": "index.js",
   "keywords": [
