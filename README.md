@@ -15,3 +15,14 @@ This module also contains a base configuration for React projects, which can be 
 ```json
 "extends": ["chronograph/react"]
 ```
+
+## Update Version / Publish to NPM 
+
+### Update Version 
+``npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]
+'npm [-v | --version]' to print npm version
+'npm view <pkg> version' to view a package's published version
+'npm ls' to inspect current package/dependency versions``
+
+### Publish New Version to NPM
+`npm publish`
