@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-chronograph",
+  "name": "@chronograph-pe/eslint-config-chronograph",
   "version": "1.1.0",
   "description": "Base shared eslint configuration for Chronograph.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "Chronograph",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chronograph-pe/chronograph.git"
+    "url": "git+https://github.com/chronograph-pe/chronograph.git"
   },
   "license": "ISC",
   "peerDependencies": {
@@ -24,5 +24,12 @@
     "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jest": "^22.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/chronograph-pe/chronograph/issues"
+  },
+  "homepage": "https://github.com/chronograph-pe/chronograph#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
