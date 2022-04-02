@@ -21,6 +21,7 @@ module.exports = {
 	plugins: [
 		'import',
 		'jest',
+		'react-hooks',
 	],
 	rules: {
 		'array-bracket-newline': ['error', 'consistent'],
@@ -31,7 +32,11 @@ module.exports = {
 		'arrow-spacing': 'error',
 		'block-spacing': 'error',
 		'brace-style': 'error',
-		'camelcase': ['error', { properties: 'never' }],
+		'camelcase': ['error', {
+			properties: 'never',
+			ignoreDestructuring: true,
+			allow: ['^UNSAFE_'],
+		}],
 		'comma-dangle': ['error', 'always-multiline'],
 		'comma-spacing': 'error',
 		'comma-style': 'error',
@@ -73,6 +78,8 @@ module.exports = {
 		'prefer-template': 'error',
 		'quote-props': ['error', 'as-needed'],
 		'quotes': ['error', 'single'],
+		'react-hooks/exhaustive-deps': 'warn',
+		'react-hooks/rules-of-hooks': 'error',
 		'rest-spread-spacing': 'error',
 		'semi': ['error', 'never'],
 		'space-in-parens': 'error',
