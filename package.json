@@ -24,7 +24,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jest": "^22.5.1",
-    "eslint-plugin-react-hooks": "^4.0.5"
+    "eslint-plugin-react-hooks": "^4.5.0"
   },
   "bugs": {
     "url": "https://github.com/chronograph-pe/chronograph/issues"
